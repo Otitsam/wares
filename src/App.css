@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+
+
+.app-container{
+    max-width: 1100px;
+    margin: auto;
+    /* background-color: aquamarine; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.free-apis{
+    /* align-items: center; */
+    margin-top: 7em;
+    margin-left: 15em;
+    margin-right: 15em;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.input-text{
+    align-items: center;
+    /* background-color: pink; */
+    /* justify-items: center; */
+    justify-content: center;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.input{
+    width: 55%;
+    border-radius: 2em;
+    /* border: none; */
+    padding: 20px;
+    margin-top: 2em;
+    /* border-color: rgba(128, 128, 128, 0.299); */
+    border: 1px solid rgba(128, 128, 128, 0.158);
+
 }
 
-.App-link {
-  color: #61dafb;
+.featured{
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 51em;
+    margin-bottom: -3em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+    gap: 2em;
+    border-radius: 20px;
+    
 }
+
+.comp-card{
+    display:grid;
+    grid-gap: 1em;
+    justify-content: center;
+    padding: 3em;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* box-shadow: black; */
+}
+
+.waresText{
+    flex: 1;
+}
+
+.softwareCards{
+    object-fit: cover;
+    border-radius: 100%;
+    width: 6em;
+    height: 6em;
+    margin-bottom: 60px;
+}
+
+
